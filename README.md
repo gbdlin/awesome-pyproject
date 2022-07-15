@@ -8,7 +8,7 @@
 [PEP 660](https://www.python.org/dev/peps/pep-660/). It is design to store
 build system requirements, but it can also store any tool configuration for your
 Python project, possibly replacing the need for `setup.cfg` or other
-tool-specific files.
+tool-specific files.https://github.com/pypa/pip/issues/8437#issuecomment-805313362
 
 - [PEP 518 -- File specification](https://www.python.org/dev/peps/pep-0518/#specification).
 - [PEP 621 -- Storing project metadata in pyproject.toml](https://www.python.org/dev/peps/pep-0621/#specification)
@@ -83,6 +83,7 @@ Do you know of any other project not included here? Please
 - [pip](https://pip.pypa.io/en/stable/reference/pip/#pep-517-and-518-support) - The package installer for Python. You can use pip to install packages from the Python Package Index and other indexes.
 - [Poetry](https://python-poetry.org/docs/pyproject/) - A tool for dependency management and packaging in Python. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you.
 - [Pyflow](https://github.com/David-OConnor/pyflow) - An installation and dependency system for Python.
+- [setuptools](https://github.com/pypa/setuptools) - Easily download, build, install, upgrade, and uninstall Python packages.
 - [setuptools_scm](https://github.com/pypa/setuptools_scm) - Handles managing your Python package versions in SCM metadata instead of declaring them as the version argument or in a SCM managed file.
 
 
